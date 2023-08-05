@@ -1,8 +1,10 @@
+
 body {
-  font-family: 'Roboto', sans-serif; /* Replace with your preferred font */
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #1f3a46; /* Light blue color for the font */
+  background-color: #f2f2f2; /* Gray background color */
 }
 
 header {
@@ -14,7 +16,7 @@ header {
 
 header h1 {
   margin: 0;
-  font-family: 'Montserrat', sans-serif; /* Replace with your preferred font */
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
@@ -40,6 +42,7 @@ main {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
+  background-color: #fff; /* White background color for team member cards */
 }
 
 .team-section li:hover {
@@ -73,7 +76,7 @@ main {
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif; /* Replace with your preferred font */
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
@@ -82,3 +85,4 @@ main {
 .try-out-button:hover {
   background-color: #555;
 }
+
